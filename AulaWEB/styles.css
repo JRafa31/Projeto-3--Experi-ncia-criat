@@ -1,0 +1,96 @@
+
+:root {
+    --primary-color: #1a73e8;
+    --text-color: #1a1a1a;
+    --bg-color: #f9f9f9;
+    --code-bg: #272822;
+    --code-text: #f8f8f2;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+}
+
+.titulo {
+     color: white;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+    margin-top:20px;
+}
+
+code, pre {
+    background-color: var(--code-bg);
+    color: var(--code-text);
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.exemplo {
+    background-color: #f4faff;
+    padding: 20px;
+    border-left: 5px solid var(--primary-color);
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
